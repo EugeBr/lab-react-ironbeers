@@ -21,6 +21,7 @@
 
 .beerPic {
   height: 150px;
+  width: auto;
 }
 
 .beerText {
@@ -28,10 +29,33 @@
   max-width: 300px;
 }
 
-.tagline {
+.gray {
   color: gray;
 }
 
 .line {
   width: 50%;
+}
+
+.singleBeerPic {
+  height: 250px;
+  width: auto;
+}
+
+.singleBeer {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding-left: 380px;
+  padding-top: 50px;
+  padding-bottom: 200px;
+  text-align: left;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
 }

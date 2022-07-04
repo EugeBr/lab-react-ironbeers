@@ -9,7 +9,7 @@ export default function Beer({ name, image_url, tagline, contributed_by, _id }) 
                 <img src={image_url} alt={name} className='beerPic'/>
                 <div className='beerText'>
                     <h2>{name}</h2>
-                    <h3 className='tagline'>{tagline}</h3>
+                    <h3 className='gray'>{tagline}</h3>
                     <p><b>Created by: </b>{contributed_by}</p>
                 </div>
             </Link>
