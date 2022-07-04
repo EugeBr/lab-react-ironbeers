@@ -11,3 +11,27 @@
   max-width: 705px;
   padding-left: 200px;
 }
+
+.beer {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 30px;
+}
+
+.beerPic {
+  height: 150px;
+}
+
+.beerText {
+  text-align: left;
+  max-width: 300px;
+}
+
+.tagline {
+  color: gray;
+}
+
+.line {
+  width: 50%;
+}
